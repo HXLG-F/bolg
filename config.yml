@@ -1,0 +1,44 @@
+baseURL: "https://fuyisen.space/"
+title: "哈西力工的博客"
+theme: "PaperMod" # 必须和themes/下的文件夹名一致
+
+languageCode: "zh-cn"
+defaultContentLanguage: "zh-cn"
+hasCJKLanguage: true # 优化中文字体显示
+
+menu:
+  main:
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 30
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 40
+
+params:
+  defaultTheme: auto # 自动切换深色/浅色模式
+  displayFullLangName: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  ShowCodeCopyButtons: true
+
+socialIcons:
+  - name: github
+    url: "https://github.com/HXLG-F" # 请替换
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
