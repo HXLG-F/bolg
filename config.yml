@@ -32,6 +32,7 @@ params:
   ShowReadingTime: true
   ShowToc: true
   ShowCodeCopyButtons: true
+  Search: true
 
 socialIcons:
   - name: github
